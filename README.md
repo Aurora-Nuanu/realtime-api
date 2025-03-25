@@ -1,14 +1,9 @@
 # Reference Client: Realtime API (beta)
 
 This repository contains a reference client aka sample library for connecting
-to OpenAI's Realtime API.
+to Nuanu's Realtime API.
 **This library is in beta and should not be treated as a final implementation.**
 You can use it to easily prototype conversational apps.
-
-**The easiest way to get playing with the API right away** is to use the
-[**Realtime Console**](https://github.com/openai/openai-realtime-console), it uses
-the reference client to deliver a fully-functional API inspector with examples
-of voice visualization and more.
 
 # Quickstart
 
@@ -17,11 +12,11 @@ in both JavaScript and TypeScript codebases. While in beta, to install the libra
 need to `npm install` directly from the GitHub repository.
 
 ```shell
-$ npm i openai/openai-realtime-api-beta --save
+$ npm i Aurora-Nuanu/realtime-api --save
 ```
 
 ```javascript
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@Aurora-Nuanu/realtime-api';
 
 const client = new RealtimeClient({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -58,7 +53,7 @@ You can use this client directly from the browser in e.g. React or Vue apps.
 In order to instantiate the client in a browser environment, use:
 
 ```javascript
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@Aurora-Nuanu/realtime-api';
 
 const client = new RealtimeClient({
   apiKey: process.env.OPENAI_API_KEY,
@@ -377,16 +372,3 @@ To run tests with debug logs (will log events sent to and received from WebSocke
 ```shell
 $ npm test -- --debug
 ```
-
-# Acknowledgements and contact
-
-Thank you for checking out the Realtime API. Would love to hear from you.
-Special thanks to the Realtime API team for making this all possible.
-
-- OpenAI Developers / [@OpenAIDevs](https://x.com/OpenAIDevs)
-- Jordan Sitkin / API / [@dustmason](https://x.com/dustmason)
-- Mark Hudnall / API / [@landakram](https://x.com/landakram)
-- Peter Bakkum / API / [@pbbakkum](https://x.com/pbbakkum)
-- Atty Eleti / API / [@athyuttamre](https://x.com/athyuttamre)
-- Jason Clark / API / [@onebitToo](https://x.com/onebitToo)
-- Keith Horwood / API + DX / [@keithwhor](https://x.com/keithwhor)
