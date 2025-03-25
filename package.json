@@ -1,9 +1,9 @@
 {
-  "name": "@openai/realtime-api-beta",
+  "name": "@aurora-nuanu/realtime-api",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
-  "description": "OpenAI Realtime API Reference Client (beta)",
+  "description": "Nuanu's Realtime API Reference Client (beta)",
   "main": "index.js",
   "types": "./dist/index.d.ts",
   "scripts": {

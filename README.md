@@ -12,11 +12,11 @@ in both JavaScript and TypeScript codebases. While in beta, to install the libra
 need to `npm install` directly from the GitHub repository.
 
 ```shell
-$ npm i Aurora-Nuanu/realtime-api --save
+$ npm i aurora-nuanu/realtime-api --save
 ```
 
 ```javascript
-import { RealtimeClient } from '@Aurora-Nuanu/realtime-api';
+import { RealtimeClient } from '@aurora-nuanu/realtime-api';
 
 const client = new RealtimeClient({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -53,7 +53,7 @@ You can use this client directly from the browser in e.g. React or Vue apps.
 In order to instantiate the client in a browser environment, use:
 
 ```javascript
-import { RealtimeClient } from '@Aurora-Nuanu/realtime-api';
+import { RealtimeClient } from '@aurora-nuanu/realtime-api';
 
 const client = new RealtimeClient({
   apiKey: process.env.OPENAI_API_KEY,
