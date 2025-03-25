@@ -1,6 +1,6 @@
 {
   "name": "@aurora-nuanu/realtime-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "type": "module",
   "description": "Nuanu's Realtime API Reference Client (beta)",
